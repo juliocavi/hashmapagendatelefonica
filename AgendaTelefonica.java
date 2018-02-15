@@ -34,4 +34,12 @@ public class AgendaTelefonica
         String numeroDelContacto = agenda.get(name);
         return numeroDelContacto;
     }
+    
+    /**
+     * Print all keys
+     */
+    public void printAllNames()
+    {
+        System.out.println(agenda.keySet());
+    }
 }
